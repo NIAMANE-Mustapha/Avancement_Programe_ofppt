@@ -19,7 +19,7 @@ export default function Login() {
             psw:pswRef.current.value,
         }
         console.log(payload)
-        fetch('/api/api/login',{
+        fetch('http://127.0.0.1:8000/api/login',{
             method:'POST',
             body:JSON.stringify(payload),
             headers:{
