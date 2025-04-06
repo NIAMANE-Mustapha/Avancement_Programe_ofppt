@@ -1,5 +1,5 @@
 {
-  "homepage":"https//niamane-mustapha.github.io/Avancement_Programe_ofppt",
+  "homepage": "https//niamane-mustapha.github.io/Avancement_Programe_ofppt",
   "name": "client",
   "private": true,
   "version": "0.0.0",
@@ -9,11 +9,12 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "flowbite-react": "^0.10.2",
+    "gh-pages": "^6.3.0",
     "lucide-react": "^0.482.0",
     "puppeteer": "^24.5.0",
     "react": "^19.0.0",
